@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a7effc-4dea-4c70-abbd-38910768b769" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/run.py" />
-      <change beforePath="$PROJECT_DIR$/MyTest/MyTest/items.py" afterPath="$PROJECT_DIR$/MyTest/MyTest/items.py" />
-      <change beforePath="$PROJECT_DIR$/MyTest/MyTest/pipelines.py" afterPath="$PROJECT_DIR$/MyTest/MyTest/pipelines.py" />
-      <change beforePath="$PROJECT_DIR$/MyTest/MyTest/settings.py" afterPath="$PROJECT_DIR$/MyTest/MyTest/settings.py" />
-      <change beforePath="$PROJECT_DIR$/MyTest/MyTest/spiders/bookstoscrape.py" afterPath="$PROJECT_DIR$/MyTest/MyTest/spiders/bookstoscrape.py" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-23-38.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-24-01.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-24-55.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-25-19.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-28-43.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-29-11.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-33-58.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-34-19.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-34-49.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-36-37.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-37-49.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MyTest/exporter/bookstoscrape/2019-04-25T03-38-41.xls" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/exporter/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="soimage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="soimage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyTest/MyTest/spiders/soimage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="202">
@@ -80,6 +64,16 @@
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyTest/exporter/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,6 +110,7 @@
         <option value="$PROJECT_DIR$/MyTest/run.py" />
         <option value="$PROJECT_DIR$/MyTest/MyTest/settings.py" />
         <option value="$PROJECT_DIR$/MyTest/MyTest/spiders/soimage.py" />
+        <option value="$PROJECT_DIR$/MyTest/exporter/__init__.py" />
       </list>
     </option>
   </component>
@@ -183,7 +178,14 @@
               <item name="Scrapy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="exporter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="exporter" type="462c0819:PsiDirectoryNode" />
+              <item name="soimage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,6 +279,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="281" y="27" width="1313" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -284,7 +287,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44617784" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43681747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2577075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2577075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -457,6 +460,14 @@
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/exporter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
