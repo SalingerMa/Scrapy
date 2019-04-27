@@ -7,6 +7,15 @@
 import pymongo
 from scrapy.exceptions import DropItem
 from scrapy.item import Item
+from scrapy.pipelines.files import FilesPipeline
+from urllib.parse import urlparse
+from os.path import basename, dirname, join
+
+class MyFilesPipline(FilesPipeline):
+    def file_path(self, request, response=None, info=None):
+        path = urlparse(request.url).path
+        return join(basename(dirname(path)), basename(path))
+
 
 class MongoPipeline(object):
     def __init__(self, mongo_host, mongo_db):

@@ -12,6 +12,9 @@ class MytestItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
+class MatplotlibItem(scrapy.Item):
+    file_urls = scrapy.Field()
+    files = scrapy.Field()
 
 class BookItem(scrapy.Item):
     url = scrapy.Field()

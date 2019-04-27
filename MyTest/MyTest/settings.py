@@ -24,7 +24,7 @@ DB_NAME = 'scrapy_book2'
 #USER_AGENT = 'MyTest (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -69,20 +69,25 @@ ROBOTSTXT_OBEY = True
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
-FEED_EXPORTERS = {
-    'excel': 'MyTest.excelexporters.ExcelExporter'
-}
+# FEED_EXPORTERS = {
+#     'excel': 'MyTest.excelexporters.ExcelExporter'
+# }
 
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
+    # 'scrapy.pipelines.files.FilesPipeline': 1,
+    'scrapy.pipelines.images.ImagesPipeline': 1,
+    # 'MyTest.pipelines.MyFilesPipline': 1,
    # 'MyTest.pipelines.MytestPipeline': 300,
    #  'MyTest.pipelines.MongoPipeline': 300,
-    'MyTest.pipelines.PriceConverterPipeline': 310,
+   #  'MyTest.pipelines.PriceConverterPipeline': 310,
     # 'MyTest.pipelines.DuplicatesPipeline': 320,
     # 'MyTest.pipelines.MongoDBPipeline': 330,
 }
+FILES_STORE = 'exporter/matplotlib'
+IMAGES_STORE = 'exporter/soimage'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -104,5 +109,4 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-
 

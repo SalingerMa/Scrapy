@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from ..items import BooksToScrapeItem
-from scrapy.linkextractor import LinkExtractor
+from scrapy.linkextractors import LinkExtractor
 
 class BookstoscrapeSpider(scrapy.Spider):
     name = 'bookstoscrape'
